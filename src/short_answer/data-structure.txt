@@ -3,14 +3,23 @@
 Why do we need data structure?
 Answer:
 
+Data Structures is needed to enable the programmers to handle the data in an efficient way. It plays a big role in enhancing the performance of a software or a program as
+the main function of the software is to store and retrieve the user's data as fast as possible.
+
 What are the various operations that can be performed on different data structures?
 Answer:
+
+Insert , delete , Search (fetch) , Sort and travers.
 
 When would we use data structures in the real world?
 Answer:
 
+To improve the efficiency of our work , to Organize and manage ou Data as we want.
+
 What is an Array?
 Answer:
+
+An array is a data structure that contains a group of elements of the same data type.
 
 What is the difference between Array and ArrayList?
 Answer:
