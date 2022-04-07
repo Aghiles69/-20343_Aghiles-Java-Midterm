@@ -17,6 +17,6 @@ public class Fibonacci {
     public static void main(String[] args) {
         System.out.println("The 2nd fibonacci number is: " + fib(2));
         System.out.println("The 10th fibonacci number is: " + fib(10));
-        System.out.println("The 15th fibonacci number is: " + fib(15));
+        System.out.println("The 15th fibonacci number is: " + fib(40));
     }
 }

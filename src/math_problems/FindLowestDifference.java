@@ -12,9 +12,25 @@ public class FindLowestDifference {
 
         int[] array1 = {30, 12, 5, 9, 2, 20, 33, 1, -15};
         int[] array2 = {18, 25, 41, 47, 17, 36, 14, 19, -15};
+        int min1 = array1[0];
+        for (int k : array1) {
+            if (k < min1)
+                min1 = k;
+        }
 
+        int min2 = array2[0];
+        for (int j : array2) {
+            if (j < min2)
+                min2 = j;
+        }
+
+    }
     }
 
 
 
-}
+
+
+
+
+
