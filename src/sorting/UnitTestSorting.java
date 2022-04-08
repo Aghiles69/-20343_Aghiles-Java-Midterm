@@ -2,6 +2,8 @@ package sorting;
 
 import org.testng.Assert;
 
+import java.util.Arrays;
+
 public class UnitTestSorting {
 
     /*
@@ -21,5 +23,10 @@ public class UnitTestSorting {
         // Verify if the unsorted array is sorted by the desired method
         Assert.assertEquals(unSortedArray, sortedArray, "ARRAY IS NOT SORTED... YET!");
 
+        Sorting sorting1 = new Sorting();
+        //Bubble sort demonstration:
+        System.out.println("Bubble Sorted Array: " + Arrays.toString(sorting1.bubbleSort(unSortedArray)));
+        //Merge sort demonstration:
+        System.out.println("Merge Sorted Array: "+ Arrays.toString(sorting1.mergeSort(unSortedArray, 0, 6)));
     }
 }

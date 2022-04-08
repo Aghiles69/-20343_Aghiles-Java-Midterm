@@ -18,12 +18,12 @@ public class Anagram {
     //Implement Here
     public static void main(String[] args) {
         isAnagram("Bonnie","Clyde");
-        isAnagram("Ivan Bliminse","Invisible man");
+        isAnagram("Ivan Bliminse","Invisible Man");
     }
     static void isAnagram(String str1, String str2) {
         String s1 = str1.replaceAll("", "");
         String s2 = str2.replaceAll("", "");
-        boolean status = true;
+        boolean status ;
         if (s1.length() != s2.length()) {
             status = false;
         } else {

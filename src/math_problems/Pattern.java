@@ -17,16 +17,16 @@ public class Pattern {
 
 
 
-    public static void patFinder(int start){
+    public static void patFinder(int num){
         int n = 1;
-        System.out.print(start + ",");
-        for (int i = start; start >= 0; i--) {
+        System.out.print(num + ",");
+        for (int i = num; num >= 0; i--) {
             for (int j = 10; j > 0; j--) {
-                start = start -n;
-                if (start < 0) {
+                num = num -n;
+                if (num < 0) {
                     break;
                 }
-                System.out.print((start) + ",");
+                System.out.print(num + ",");
             }
             n++;
         }
