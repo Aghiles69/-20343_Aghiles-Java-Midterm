@@ -52,37 +52,50 @@ public class Sorting {
 
     public int[] bubbleSort(int[] array) {
         // IMPLEMENT HERE
+        int n = array.length;
+        int temp = 0;
+        for (int i = 0; true; i++) {
+            for (int j = 1; j < (n - i); j++) {
+                if (array[j - 1] > array[j]) {
+                    //swap elements
+                    temp = array[j - 1];
+                    array[j - 1] = array[j];
+                    array[j] = temp;
+                }
 
-        return array;
-    }
+            }
+            return array;
+        }
+    }}
 
-    public int[] mergeSort(int[] array) {
-        // IMPLEMENT HERE
 
-        return array;
-    }
+//public int[] mergeSort(int[] arr) {
+//    // IMPLEMENT HERE
 
-    public int[] quickSort(int[] array) {
-        // IMPLEMENT HERE
+//    return array;
+//}
 
-        return array;
-    }
+//public int[] quickSort(int[] array) {
+//    // IMPLEMENT HERE
 
-    public int[] heapSort(int[] array) {
-        // IMPLEMENT HERE
+//    return array;
+//}
 
-        return array;
-    }
+//public int[] heapSort(int[] array) {
+//    // IMPLEMENT HERE
 
-    public int[] bucketSort(int[] array) {
-        //implement here
+//    return array;
+//}
 
-        return array;
-    }
+//public int[] bucketSort(int[] array) {
+//    //implement here
 
-    public int[] shellSort(int[] array) {
-        //implement here
+//    return array;
+//}
 
-        return array;
-    }
-}
+//public int[] shellSort(int[] array) {
+//    //implement here
+
+//    return array;
+//}
+//

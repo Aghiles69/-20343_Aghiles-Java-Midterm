@@ -11,10 +11,11 @@ Answer: Java Development Kit (JDK) is composed of everything that a computer nee
 -Java Virtual Machine (JVM) executes java bytecode to executive in the computer (any operating system)
 
 What is an IDE?
-Answer: Integrated Development Environment (IDE) is a text editor that facilites the writing of source code.
+Answer: Integrated Development Environment is basically a software that provides facilities to programmers for software development.
+That's where you will write your code and run/debug it in the same time.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:Intelijj IDEA and Eclipse.
+Answer:IntelliJ IDEA and Eclipse.
 
 Explain the entire java life cycle.
 Answer: The source code (.java) is turned into bytecode (.class) by the compiler. Then, this bytecode enters into the Java Virtual Machine where it will
@@ -24,14 +25,16 @@ What is a class?
 Answer: It is a blueprint for an object. It includes all states and behaviors that will be shared by the objects of that class.
 
 What is an object?
-Answer: It is an instance of a class. Objects are based on real-life objects.
+Answer: It is an instance of a class, based on real-life objects.
 
 What is the entry point of an application?
-Answer: The entry point is the Main method of the class.
+Answer:  the Main method of the class is the entry point.
 
 Why is the main() static?
-Answer: because in order to run the application, the compiler needs to call the main method. In order to call it without creating an object of the class,
-we leave the main method as static.
+Answer: Because we want the main method to be static in memory and have his own memory allocation,
+so that compiler can call it without the creation of an object or before the creation of an object of the class.
+
+
 
 Which class is the superclass of all classes?
 Answer: Object class.
