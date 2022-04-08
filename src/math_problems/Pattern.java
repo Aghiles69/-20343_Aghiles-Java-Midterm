@@ -10,7 +10,31 @@ public class Pattern {
      *
      */
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        pattern(100);
     }
+
+
+
+    public static void pattern(int first){
+        int x = 1;
+        System.out.print(first + ",");
+        for (int i = first; first >= 0; i--) {
+            if (first < 0) {
+                break;
+            }
+            for (int j = 10; j > 0; j--) {
+                first = first -x;
+                if (first < 0) {
+                    break;
+                }
+                System.out.print((first) + ",");
+            }
+            x++;
+        }
+    }
+
+
+
 }

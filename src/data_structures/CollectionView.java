@@ -18,7 +18,7 @@ public class CollectionView {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
-        System.out.println(map.values());
+        System.out.println("The Collection view of the values in map is: " + map.values());
     }
 
 }
