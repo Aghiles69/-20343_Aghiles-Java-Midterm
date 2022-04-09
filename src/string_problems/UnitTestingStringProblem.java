@@ -1,6 +1,6 @@
 package string_problems;
 
-import static string_problems.Permutation.isPalindrome;
+import static string_problems.Palindrome.isPalindrome;
 
 public class UnitTestingStringProblem {
 

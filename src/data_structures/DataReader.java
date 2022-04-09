@@ -30,7 +30,7 @@ public class DataReader {
         FileReader fileReader;
         BufferedReader bufferedReader;
 
-        public static void main(String[] args) {
+        public static void main(String[] args) throws Exception {
 
 
             DataReader dr = new DataReader();
@@ -39,7 +39,7 @@ public class DataReader {
         }
 
 
-        void readFiles() {
+        void readFiles() throws Exception{
             String data;
             try {
                 fileReader = new FileReader(path);

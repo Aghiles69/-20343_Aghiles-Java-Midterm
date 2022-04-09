@@ -43,6 +43,8 @@ public class EmployeeInfo {
      */
     public static int calculateAnnualBonus(int salary, int performanceGrade) {
         int total = 0;
+
+
         return total;
     }
 

@@ -109,7 +109,63 @@ public class Sorting {
             array[k++] = R[j++];
         }
     }
+
+    public int[] shellSort(int[] array) {
+//    //implement here
+        int n = array.length;
+        for (int gap = n / 2; gap > 0; gap /= 2) {
+            for (int i = gap; i < n; i++) {
+                int key = array[i];
+                int j = i;
+                while (j >= gap && array[j - gap] > key) {
+                    array[j] = array[j - gap];
+                    j -= gap;
+                }
+                array[j] = key;
+            }
+        }
+        return array;
+
+
+    }
+
+
+
+    public int[] heapSort(int[] array) {
+        // IMPLEMENT HERE
+        int n = array.length;
+        for (int i = n / 2 - 1; i >= 0; i--)
+            heapHelp(array, n, i);
+        for (int i = n - 1; i > 0; i--) {
+            int temp = array[0];
+            array[0] = array[i];
+            array[i] = temp;
+            heapHelp(array, i, 0);
+        }
+        return array;
+    }
+    private int[] heapHelp(int[] arr, int n, int i) {
+        int largest = i;
+        int l = 2 * i + 1;
+        int r = 2 * i + 2;
+        if (l < n && arr[l] > arr[largest])
+            largest = l;
+        if (r < n && arr[r] > arr[largest])
+            largest = r;
+        if (largest != i) {
+            int swap = arr[i];
+            arr[i] = arr[largest];
+            arr[largest] = swap;
+            heapHelp(arr, n, largest);
+        }
+
+
+        return arr;
+
+
+    }
 }
+
 
 
 
@@ -121,11 +177,8 @@ public class Sorting {
 //    return array;
 //}
 
-//public int[] heapSort(int[] array) {
-//    // IMPLEMENT HERE
 
-//    return array;
-//}
+
 
 //public int[] bucketSort(int[] array) {
 //    //implement here
@@ -133,9 +186,5 @@ public class Sorting {
 //    return array;
 //}
 
-//public int[] shellSort(int[] array) {
-//    //implement here
 
-//    return array;
-//}
 //

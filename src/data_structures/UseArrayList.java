@@ -33,7 +33,7 @@ public class UseArrayList {
             System.out.print(integer + ",");
         }
 
-        System.out.println("\nDemonstration of the get() method: " + myArrayList.get(4));
+        System.out.println("\nDemonstration of the get() method: " + myArrayList.get(3));
 
         System.out.println("\nIterating through the list with an iterator: ");
 
