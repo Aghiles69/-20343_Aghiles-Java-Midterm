@@ -12,7 +12,7 @@ public class UnitTestConnectDB {
 
         // region readAllTest
         SharedStepsDatabase ssdb = new SharedStepsDatabase();
-        String query = "SELECT * FROM ACTOR";
+        String query = "SELECT * FROM CITY";
 
         List<List<String>> data = ssdb.executeQueryReadAll(query);
 

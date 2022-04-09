@@ -7,6 +7,6 @@ public class UnitTestingMath {
      */
 
     public static void main(String[] args) {
-
+        System.out.println(Fibonacci.fib(40));
     }
 }
