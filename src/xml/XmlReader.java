@@ -74,9 +74,15 @@ public class XmlReader {
 
     // You must implement this method
     public char convertIntToChar(String score) {
-        char grade = ' ';
 
-        return grade;
-    }
 
-}
+
+
+   char grade = ' ';
+    // for (score > A){
+
+
+  return grade;
+
+}}
+

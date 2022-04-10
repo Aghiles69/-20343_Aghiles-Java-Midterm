@@ -1,5 +1,6 @@
 package data_structures;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -32,6 +33,25 @@ public class UseQueue {
 
         //Demonstration of removing the head of the Queue
         myQueue.remove();
+        System.out.println("Peek the first Element: ");
+
+        System.out.print(myQueue.peek());
+
+
+        myQueue.remove();
+
+        System.out.println("\nremoving the first element : ");
+
+        System.out.print(myQueue.peek());
+
+
+
+
+
+
     }
+
+
+
 
 }

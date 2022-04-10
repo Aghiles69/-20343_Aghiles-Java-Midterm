@@ -17,8 +17,8 @@ public class Anagram {
 
     //Implement Here
     public static void main(String[] args) {
-        isAnagram("Bonnie","Clyde");
-        isAnagram("Ivan Bliminse","Invisible Man");
+       // isAnagram("Bonnie","Clyde");
+       // isAnagram("Ivan Bliminse","Invisible Man");
     }
     static void isAnagram(String str1, String str2) {
         String s1 = str1.replaceAll("", "");

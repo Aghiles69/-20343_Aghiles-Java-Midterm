@@ -60,7 +60,7 @@ public class CnnAPI {
     public static void main(String[] args) throws IOException, JSONException {
         String apiKey = "";
         String URL = "";
-
+        String temp;
         NewsData news = null;
         List<NewsData> newsDataList = new ArrayList<>();
         java.net.URL url1 = new URL(URL);

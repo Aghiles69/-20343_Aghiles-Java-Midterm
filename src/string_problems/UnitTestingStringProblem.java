@@ -18,6 +18,10 @@ public class UnitTestingStringProblem {
         } else {
             System.out.println("The Word " + text + " is not a Palindrome");
         }
+        //Unit Test for Anagram Class:
+        Anagram.isAnagram("Ivan Bliminse","Invisible Man");
+
+        //
     }
 
 }

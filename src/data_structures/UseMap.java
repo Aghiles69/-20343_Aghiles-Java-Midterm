@@ -36,5 +36,12 @@ public class UseMap {
 
         // IMPLEMENT HERE
 
+        System.out.print(map);
+
+
+
+
+
+
     }
 }
