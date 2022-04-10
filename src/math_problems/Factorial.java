@@ -11,9 +11,7 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        System.out.println(iterationFact(10));
 
-        System.out.println(recursionFact(5));
 
     }
 

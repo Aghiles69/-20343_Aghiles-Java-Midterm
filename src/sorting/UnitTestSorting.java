@@ -23,10 +23,19 @@ public class UnitTestSorting {
         // Verify if the unsorted array is sorted by the desired method
         Assert.assertEquals(unSortedArray, sortedArray, "ARRAY IS NOT SORTED... YET!");
 
-        Sorting sorting1 = new Sorting();
-        //Bubble sort demonstration:
-        System.out.println("Bubble Sorted Array: " + Arrays.toString(sorting1.bubbleSort(unSortedArray)));
-        //Merge sort demonstration:
-        System.out.println("Merge Sorted Array: "+ Arrays.toString(sorting1.mergeSort(unSortedArray, 0, 6)));
+
+        //Example of how the array should look once sorted
+        System.out.println("Sorted array should be printed this way: "+ Arrays.toString(sortedArray));
+
+        //Bubble sort Unit Testing:
+        System.out.println("Bubble Sorted Array: " + Arrays.toString(sorting.bubbleSort(unSortedArray)));
+        //Merge sort Unit Testing:
+        System.out.println("Merge Sorted Array: "+ Arrays.toString(sorting.mergeSort(unSortedArray, 0, 6)));
+        //Heap sort Unit Testing:
+        System.out.println("Heap Sorted Array: "+ Arrays.toString(sorting.heapSort(unSortedArray)));
+        //Shell sort Unit testing:
+        System.out.println("Shell Sorted Array: "+Arrays.toString(sorting.shellSort(unSortedArray)));
+        //Quick sort Unit testing:
+        System.out.println("Quick Sorted Array: "+ Arrays.toString(Sorting.quickSort(unSortedArray,0,6)));
     }
 }

@@ -11,5 +11,7 @@ public class UnitTestingMath {
         System.out.println("The 40Th Fibonacci number is : "+ Fibonacci.fib(40));
         //Prime number Unit testing
         System.out.println("The prime numbers from 2 to 1 000 000 are : "+ PrimeNumber.primeNumbers(1000000));
+        //Factorial Unit testing:
+        System.out.println("The Factorial of the number 5 is "+Factorial.recursionFact(5));
     }
 }

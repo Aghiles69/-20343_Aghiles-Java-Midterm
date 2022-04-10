@@ -33,8 +33,7 @@ public class DataReader {
         public static void main(String[] args) throws Exception {
 
 
-            DataReader dr = new DataReader();
-            dr.readFiles();
+
 
         }
 
